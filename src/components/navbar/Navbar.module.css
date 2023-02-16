@@ -1,0 +1,24 @@
+.container {
+  background-color: #F2790F;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  /* padding: 0 1rem; */
+  height: 4rem;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;}
+a {
+  color: black;
+  font-size: 1.1rem;
+  padding: 0rem 1rem 1rem 1rem;
+  height: 100%;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  text-decoration: none;
+  padding-bottom: 0;
+}
+a:hover {
+  background-color: #0798F2;
+  /* transition: 0.5s; */
+}
