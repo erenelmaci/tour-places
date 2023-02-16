@@ -7,6 +7,8 @@
   overflow: hidden;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  filter: none;
+  transition: filter 0.5s ease-in-out;
 }
 .temporary_text {
   font-weight: bold;
@@ -79,10 +81,8 @@
   height: 17rem;
   object-fit: cover;
   border-radius: 1rem;
-  filter: none;
-  transition: filter 0.5s ease-in-out;
 }
-img:hover {
+.card:hover {
   filter: grayscale(100%);
 }
 .container {
