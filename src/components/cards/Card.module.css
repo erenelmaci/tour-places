@@ -86,13 +86,13 @@
   filter: grayscale(100%);
 }
 .container {
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* flex-direction: row; */
   display: inline-block;
   padding: 1rem 2rem 1rem 2rem;
 }
 div {
   text-align: center;
+}
+.hover{
+  color: rgba(255, 255, 255, 0.253);
+  padding-top: 3rem ;
 }
