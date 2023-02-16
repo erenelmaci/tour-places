@@ -1,7 +1,7 @@
 .card {
   position: relative;
   width: 350px;
-  height: 350px;
+  height: 420px;
   color: #2e2d31;
   background: #131313;
   overflow: hidden;
@@ -10,7 +10,6 @@
 .temporary_text {
   font-weight: bold;
   font-size: 24px;
-  padding: 6px 12px;
   color: #f8f8f8;
 }
 
@@ -22,13 +21,11 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  /* edit the width to fit card */
   width: 100%;
   padding: 20px;
   padding-bottom: 1rem;
   background: #f2f2f2;
   border-top-left-radius: 20px;
-  /* edit here to change the height of the content box */
   transform: translateY(15rem);
   transition: transform 0.25s;
 }
@@ -77,8 +74,8 @@
   transition-delay: 0.25s;
 }
 .images {
-  width: 20rem;
-  height: 15rem;
+  width: 25rem;
+  height: 17rem;
   object-fit: cover;
   border-radius: 1rem;
   filter: none;
@@ -93,7 +90,7 @@ img:hover {
   /* align-items: center; */
   /* flex-direction: row; */
   display: inline-block;
-  padding: 1rem 3rem 1rem 3rem;
+  padding: 1rem 2rem 1rem 2rem;
 }
 div {
   text-align: center;
