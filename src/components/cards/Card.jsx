@@ -6,7 +6,7 @@ const Card = ({ title, desc, image }) => {
       <article className={CardStyle["card"]}>
         <div className={CardStyle["temporary_text"]}>
           <img className={CardStyle["images"]} src={image} alt="img" />
-          <p className={CardStyle["hover"]}>Hover me</p>
+          <p className={CardStyle["hover"]}>Mouse Over</p>
         </div>
         <div className={CardStyle["card_content"]}>
           <span className={CardStyle["card_title"]}>{title}</span>
