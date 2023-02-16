@@ -6,6 +6,7 @@
   background: #131313;
   overflow: hidden;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 }
 .temporary_text {
   font-weight: bold;
