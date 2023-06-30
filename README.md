@@ -1,5 +1,5 @@
 # Tour Place App
 
-<h3>React kullanarak mock data üzerinden map işlemi yapılmıştır react için giriş seviyesi düzeyindedir</h3>
+<h3>A map operation has been performed on mock data using React. It is at an entry-level proficiency for React.</h3>
 
 <img src='./src/helper/Recording%202023-07-01%20at%2000.54.11.gif' />
